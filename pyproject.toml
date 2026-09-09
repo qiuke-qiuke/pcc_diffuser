@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcc-diffuser"
+version = "0.1.0"
+description = "Unified conditional diffusion planning for three-section PCC robots"
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch", "PyYAML", "matplotlib", "torch-geometric"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pcc_diffuser*"]

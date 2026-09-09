@@ -1,0 +1,6 @@
+/runs/
+/figures/
+/data/
+
+**/__pycache__/
+*.py[cod]

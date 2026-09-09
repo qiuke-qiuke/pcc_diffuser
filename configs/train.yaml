@@ -1,0 +1,22 @@
+# Shared model and optimiser settings.
+split: train
+model_dim: 64
+dim_mults: [1, 2, 4]
+context_dim: 256
+dropout: 0.0
+graph_hidden_dim: 128
+graph_layers: 2
+train_timesteps: 1000
+batch_size: 64
+learning_rate: 2.0e-4
+weight_decay: 1.0e-4
+training_steps: 100000
+gradient_accumulation: 1
+gradient_clip: 1.0
+ema_decay: 0.995
+ema_update_every: 1
+num_workers: 0
+save_every: 10000
+log_every: 100
+seed: 0
+device: auto
