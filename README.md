@@ -5,7 +5,6 @@ PccDiffuser: Multi-solution Motion Planning for Continuum Robots
 Link: 
 
 ---
-
 ### Generate dataset (smoke test)
 ```bash
 python -u scripts/generate_dataset.py --output-dir data/set_smoke --smoke --overwrite --device cuda:0
