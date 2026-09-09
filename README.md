@@ -4,6 +4,11 @@ PccDiffuser: Multi-solution Motion Planning for Continuum Robots
 
 Link: 
 
+If you found this repository helpful or used parts of it yourself, please refer to it using the following BibTeX entries to cite our work:
+```tex
+
+```
+
 ---
 ### Generate dataset (smoke test)
 ```bash
