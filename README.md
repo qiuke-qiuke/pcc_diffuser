@@ -2,11 +2,16 @@ This repository is part of the following publication:
 
 PccDiffuser: Multi-solution Motion Planning for Continuum Robots
 
-Link: 
+Link: https://arxiv.org/abs/2609.09745
 
 If you found this repository helpful or used parts of it yourself, please refer to it using the following BibTeX entries to cite our work:
 ```tex
-
+@article{qiu2026pccdiffuser,
+  title={PccDiffuser: Multi-solution Motion Planning for Continuum Robots}, 
+  author={Qiu, Ke and Chen, Sifan and Wang, Si and Xiong, Rong and Wang, Yue and Lu, Haojian},
+  journal={arXiv preprint arXiv:2609.09745},
+  year={2026}
+}
 ```
 
 ---
